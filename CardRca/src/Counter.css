@@ -1,0 +1,26 @@
+.Container {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Count {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.Counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsla(197, 100%, 58%);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Counter-button:hover {
+  background-color: hsla(197, 100%, 48%);
+}

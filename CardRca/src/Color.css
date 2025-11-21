@@ -1,0 +1,35 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 50px;
+    font-size: 3em;
+}
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25 ease;
+}
+.color-display p{
+    font-size: 2em;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+input{
+    width: 50px;
+    height: 50px;
+}
